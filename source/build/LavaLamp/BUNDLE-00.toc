@@ -1,0 +1,4 @@
+([('LavaLamp',
+   '/Users/shaunakghosh/Library/Mobile '
+   'Documents/com~apple~CloudDocs/code/lavalamp/source/dist/LavaLamp',
+   'EXECUTABLE')],)

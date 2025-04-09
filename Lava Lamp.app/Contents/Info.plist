@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>LavaLamp</string>
+	<key>CFBundleExecutable</key>
+	<string>LavaLamp</string>
+	<key>CFBundleIconFile</key>
+	<string>generated-910b33662e90e33693d9da3142e30e1c40f41415234b0dc6da2793e5c1b0f25b.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>LavaLamp</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>LavaLamp</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
