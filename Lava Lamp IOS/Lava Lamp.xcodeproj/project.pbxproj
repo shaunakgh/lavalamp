@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		976605062DA7CC24001E12E4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976605052DA7CC24001E12E4 /* WidgetKit.framework */; };
+		976605082DA7CC24001E12E4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976605072DA7CC24001E12E4 /* SwiftUI.framework */; };
+		976605172DA7CC25001E12E4 /* LLWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 976605032DA7CC24001E12E4 /* LLWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		976604E32DA7CB9E001E12E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 976604CA2DA7CB9D001E12E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 976604D12DA7CB9D001E12E4;
+			remoteInfo = "Lava Lamp";
+		};
+		976604ED2DA7CB9E001E12E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 976604CA2DA7CB9D001E12E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 976604D12DA7CB9D001E12E4;
+			remoteInfo = "Lava Lamp";
+		};
+		976605152DA7CC25001E12E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 976604CA2DA7CB9D001E12E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 976605022DA7CC24001E12E4;
+			remoteInfo = LLWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9766051C2DA7CC25001E12E4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				976605172DA7CC25001E12E4 /* LLWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		976604D22DA7CB9D001E12E4 /* Lava Lamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lava Lamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		976604E22DA7CB9E001E12E4 /* Lava LampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lava LampTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		976604EC2DA7CB9E001E12E4 /* Lava LampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lava LampUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		976605032DA7CC24001E12E4 /* LLWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = LLWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		976605052DA7CC24001E12E4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		976605072DA7CC24001E12E4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		976605182DA7CC25001E12E4 /* Exceptions for "LLWidget" folder in "LLWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 976605022DA7CC24001E12E4 /* LLWidgetExtension */;
+		};
+		9766083E2DA81890001E12E4 /* Exceptions for "LLWidget" folder in "Lava Lamp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+			target = 976604D12DA7CB9D001E12E4 /* Lava Lamp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		976604D42DA7CB9D001E12E4 /* Lava Lamp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Lava Lamp";
+			sourceTree = "<group>";
+		};
+		976604E52DA7CB9E001E12E4 /* Lava LampTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Lava LampTests";
+			sourceTree = "<group>";
+		};
+		976604EF2DA7CB9E001E12E4 /* Lava LampUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Lava LampUITests";
+			sourceTree = "<group>";
+		};
+		976605092DA7CC24001E12E4 /* LLWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9766083E2DA81890001E12E4 /* Exceptions for "LLWidget" folder in "Lava Lamp" target */,
+				976605182DA7CC25001E12E4 /* Exceptions for "LLWidget" folder in "LLWidgetExtension" target */,
+			);
+			path = LLWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		976604CF2DA7CB9D001E12E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976604DF2DA7CB9E001E12E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976604E92DA7CB9E001E12E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976605002DA7CC24001E12E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				976605082DA7CC24001E12E4 /* SwiftUI.framework in Frameworks */,
+				976605062DA7CC24001E12E4 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		976604C92DA7CB9D001E12E4 = {
+			isa = PBXGroup;
+			children = (
+				976604D42DA7CB9D001E12E4 /* Lava Lamp */,
+				976604E52DA7CB9E001E12E4 /* Lava LampTests */,
+				976604EF2DA7CB9E001E12E4 /* Lava LampUITests */,
+				976605092DA7CC24001E12E4 /* LLWidget */,
+				976605042DA7CC24001E12E4 /* Frameworks */,
+				976604D32DA7CB9D001E12E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		976604D32DA7CB9D001E12E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				976604D22DA7CB9D001E12E4 /* Lava Lamp.app */,
+				976604E22DA7CB9E001E12E4 /* Lava LampTests.xctest */,
+				976604EC2DA7CB9E001E12E4 /* Lava LampUITests.xctest */,
+				976605032DA7CC24001E12E4 /* LLWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		976605042DA7CC24001E12E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				976605052DA7CC24001E12E4 /* WidgetKit.framework */,
+				976605072DA7CC24001E12E4 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		976604D12DA7CB9D001E12E4 /* Lava Lamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976604F62DA7CB9E001E12E4 /* Build configuration list for PBXNativeTarget "Lava Lamp" */;
+			buildPhases = (
+				976604CE2DA7CB9D001E12E4 /* Sources */,
+				976604CF2DA7CB9D001E12E4 /* Frameworks */,
+				976604D02DA7CB9D001E12E4 /* Resources */,
+				9766051C2DA7CC25001E12E4 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				976605162DA7CC25001E12E4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				976604D42DA7CB9D001E12E4 /* Lava Lamp */,
+			);
+			name = "Lava Lamp";
+			packageProductDependencies = (
+			);
+			productName = "Lava Lamp";
+			productReference = 976604D22DA7CB9D001E12E4 /* Lava Lamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		976604E12DA7CB9E001E12E4 /* Lava LampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976604F92DA7CB9E001E12E4 /* Build configuration list for PBXNativeTarget "Lava LampTests" */;
+			buildPhases = (
+				976604DE2DA7CB9E001E12E4 /* Sources */,
+				976604DF2DA7CB9E001E12E4 /* Frameworks */,
+				976604E02DA7CB9E001E12E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				976604E42DA7CB9E001E12E4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				976604E52DA7CB9E001E12E4 /* Lava LampTests */,
+			);
+			name = "Lava LampTests";
+			packageProductDependencies = (
+			);
+			productName = "Lava LampTests";
+			productReference = 976604E22DA7CB9E001E12E4 /* Lava LampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		976604EB2DA7CB9E001E12E4 /* Lava LampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976604FC2DA7CB9E001E12E4 /* Build configuration list for PBXNativeTarget "Lava LampUITests" */;
+			buildPhases = (
+				976604E82DA7CB9E001E12E4 /* Sources */,
+				976604E92DA7CB9E001E12E4 /* Frameworks */,
+				976604EA2DA7CB9E001E12E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				976604EE2DA7CB9E001E12E4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				976604EF2DA7CB9E001E12E4 /* Lava LampUITests */,
+			);
+			name = "Lava LampUITests";
+			packageProductDependencies = (
+			);
+			productName = "Lava LampUITests";
+			productReference = 976604EC2DA7CB9E001E12E4 /* Lava LampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		976605022DA7CC24001E12E4 /* LLWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 976605192DA7CC25001E12E4 /* Build configuration list for PBXNativeTarget "LLWidgetExtension" */;
+			buildPhases = (
+				976604FF2DA7CC24001E12E4 /* Sources */,
+				976605002DA7CC24001E12E4 /* Frameworks */,
+				976605012DA7CC24001E12E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				976605092DA7CC24001E12E4 /* LLWidget */,
+			);
+			name = LLWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = LLWidgetExtension;
+			productReference = 976605032DA7CC24001E12E4 /* LLWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		976604CA2DA7CB9D001E12E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					976604D12DA7CB9D001E12E4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					976604E12DA7CB9E001E12E4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 976604D12DA7CB9D001E12E4;
+					};
+					976604EB2DA7CB9E001E12E4 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 976604D12DA7CB9D001E12E4;
+					};
+					976605022DA7CC24001E12E4 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 976604CD2DA7CB9D001E12E4 /* Build configuration list for PBXProject "Lava Lamp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 976604C92DA7CB9D001E12E4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 976604D32DA7CB9D001E12E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				976604D12DA7CB9D001E12E4 /* Lava Lamp */,
+				976604E12DA7CB9E001E12E4 /* Lava LampTests */,
+				976604EB2DA7CB9E001E12E4 /* Lava LampUITests */,
+				976605022DA7CC24001E12E4 /* LLWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		976604D02DA7CB9D001E12E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976604E02DA7CB9E001E12E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976604EA2DA7CB9E001E12E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976605012DA7CC24001E12E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		976604CE2DA7CB9D001E12E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976604DE2DA7CB9E001E12E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976604E82DA7CB9E001E12E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976604FF2DA7CC24001E12E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		976604E42DA7CB9E001E12E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 976604D12DA7CB9D001E12E4 /* Lava Lamp */;
+			targetProxy = 976604E32DA7CB9E001E12E4 /* PBXContainerItemProxy */;
+		};
+		976604EE2DA7CB9E001E12E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 976604D12DA7CB9D001E12E4 /* Lava Lamp */;
+			targetProxy = 976604ED2DA7CB9E001E12E4 /* PBXContainerItemProxy */;
+		};
+		976605162DA7CC25001E12E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 976605022DA7CC24001E12E4 /* LLWidgetExtension */;
+			targetProxy = 976605152DA7CC25001E12E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		976604F42DA7CB9E001E12E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		976604F52DA7CB9E001E12E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		976604F72DA7CB9E001E12E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lava Lamp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lava-Labs.Lava-Lamp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		976604F82DA7CB9E001E12E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lava Lamp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lava-Labs.Lava-Lamp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		976604FA2DA7CB9E001E12E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lava-Labs.Lava-LampTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lava Lamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lava Lamp";
+			};
+			name = Debug;
+		};
+		976604FB2DA7CB9E001E12E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lava-Labs.Lava-LampTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lava Lamp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lava Lamp";
+			};
+			name = Release;
+		};
+		976604FD2DA7CB9E001E12E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lava-Labs.Lava-LampUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lava Lamp";
+			};
+			name = Debug;
+		};
+		976604FE2DA7CB9E001E12E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lava-Labs.Lava-LampUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lava Lamp";
+			};
+			name = Release;
+		};
+		9766051A2DA7CC25001E12E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LLWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LLWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lava-Labs.Lava-Lamp.LLWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9766051B2DA7CC25001E12E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LLWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = LLWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Lava-Labs.Lava-Lamp.LLWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		976604CD2DA7CB9D001E12E4 /* Build configuration list for PBXProject "Lava Lamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976604F42DA7CB9E001E12E4 /* Debug */,
+				976604F52DA7CB9E001E12E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		976604F62DA7CB9E001E12E4 /* Build configuration list for PBXNativeTarget "Lava Lamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976604F72DA7CB9E001E12E4 /* Debug */,
+				976604F82DA7CB9E001E12E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		976604F92DA7CB9E001E12E4 /* Build configuration list for PBXNativeTarget "Lava LampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976604FA2DA7CB9E001E12E4 /* Debug */,
+				976604FB2DA7CB9E001E12E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		976604FC2DA7CB9E001E12E4 /* Build configuration list for PBXNativeTarget "Lava LampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				976604FD2DA7CB9E001E12E4 /* Debug */,
+				976604FE2DA7CB9E001E12E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		976605192DA7CC25001E12E4 /* Build configuration list for PBXNativeTarget "LLWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9766051A2DA7CC25001E12E4 /* Debug */,
+				9766051B2DA7CC25001E12E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 976604CA2DA7CB9D001E12E4 /* Project object */;
+}
